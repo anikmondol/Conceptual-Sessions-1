@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .hero{
@@ -8,6 +9,7 @@
     background-size: cover;
     background-position: bottom center;
     height: 100vh;
+    clip-path: polygon(0% 15%, 0 0, 15% 0%, 85% 0%, 100% 0, 100% 15%, 100% 85%, 93% 92%, 85% 100%, 15% 100%, 8% 93%, 0% 85%);
 }
 
 .hero h1{
@@ -19,4 +21,64 @@
     /* word-spacing: 40px; */
     /* letter-spacing: 20px; */
     padding-top: 60px;
+}
+
+
+.cow-types,.article{
+    width: 80%;
+    margin: 60px auto;
+    padding: 60px;
+    background: linear-gradient(45deg,pink, rgb(52, 52, 107));
+    color: white;
+}
+
+.cow-types h2,.article h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rebeccapurple;
+    
+}
+
+.article p{
+    font-size: 25px;
+}
+
+.article p #imp{
+    font-size: 2rem;
+    background-color: rgb(45, 41, 97);
+    line-height: 1em;
+}
+
+.imp-img{
+    width: 250px;
+    height: 300px;
+}
+
+.cow-images{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* 
+.cow-images div{
+    min-width: 300px;
+}
+
+.cow-images img{
+    width: 100%;
+} */ 
+
+
+
+.copy{
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.hr{
+   max-width: 1400px;
+   margin: 0px auto;
 }
